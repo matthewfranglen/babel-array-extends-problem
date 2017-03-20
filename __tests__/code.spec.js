@@ -16,6 +16,13 @@ describe('example code', () => {
     expect('' + v).toEqual('1,2,3');
   });
 
+  it('should have array methods', () => {
+    const v = new ExampleCode(1, 2, 3);
+    const w = v.map(a => a + 1);
+
+    expect('' + w).toEqual('2,3,4');
+  });
+
   it('should return the traditional greeting', () => {
     const v = new ExampleCode(1, 2, 3);
 
