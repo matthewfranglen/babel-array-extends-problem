@@ -1,7 +1,7 @@
-Jest Import Problem
-===================
+Babel Array Extends Problem
+===========================
 
-This demonstrates a problem when running jest.
+This demonstrates a problem that I found when running jest.
 
 This project has allowed me to narrow it down to the use of babel. Unfortunately it seems you cannot extend Array.
 
