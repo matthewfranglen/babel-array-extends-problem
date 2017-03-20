@@ -1,4 +1,4 @@
-class ExampleCode {
+class ExampleCode extends Array {
 
   hello() {
     return "Hello, World!";
